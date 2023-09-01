@@ -1,0 +1,155 @@
+.location > h5 {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+.location > p {
+  margin: 0px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.vertical-line-1 {
+  height: 50px;
+  overflow: hidden;
+  border-left: 2px solid #f2f2f2ff;
+}
+.search-div {
+  padding: 0px 12px;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 12px;
+  background: rgb(248, 248, 248);
+  color: rgb(130, 130, 130);
+}
+.search-div > input {
+  border: none;
+  background-color: transparent;
+  width: 40vw;
+  height: 45px;
+}
+::placeholder {
+  font-size: 14px;
+  color: rgb(153, 153, 153);
+}
+.my-cart {
+  background-color: #0c831f !important;
+  font-size: 14px !important;
+}
+.categories-1 {
+  width: 85%;
+  overflow-x: scroll;
+  margin: auto;
+}
+.categories-1-list {
+  white-space: nowrap;
+}
+.categories-1-list > img {
+  padding-inline: 10px;
+}
+.categories-2 {
+  width: 85%;
+  margin: auto;
+}
+.categories-2-list {
+  flex-wrap: wrap;
+}
+.categories-2-list > img {
+  width: 108px !important;
+}
+.detailed-categories-section > h3 {
+  margin-top: 20px;
+}
+.dt-cat-1-list {
+  white-space: nowrap;
+}
+.my-card {
+  width: 179px;
+  height: 315px;
+  box-sizing: border-box;
+  margin-inline: 5px;
+}
+.my-card-time {
+  width: fit-content;
+  border-radius: 4px;
+  padding: 0px 4px;
+  background-color: rgb(248, 248, 248);
+  font-weight: 700;
+  font-size: 9px;
+  color: rgb(54, 54, 54);
+}
+.my-card-title > p {
+  height: 55px;
+  color: rgb(31, 31, 31);
+  font-weight: 600;
+  font-size: 13px;
+}
+.discount-img {
+  color: rgb(255, 255, 255);
+  width: fit-content;
+  padding-inline: 2px;
+  font-weight: 800;
+  font-size: 9px;
+  background-image: url("images/40per.svg");
+  text-align: center;
+  top: 0px;
+  left: 10px;
+  position: absolute;
+}
+.my-footer
+{
+ width: 85%;
+ margin: auto;
+}
+.links
+{
+  cursor: pointer;
+  font-size: 15px;
+  color: rgb(102, 102, 102);
+  font-family: OKRA-REGULAR;
+  padding-right: 70px;
+}
+.row-2-col1 {
+  text-align: justify;
+  color: #666666;
+  font-size: 13px;
+  width: 30%;
+}
+.download-section > p {
+  color: #929292ff;
+  font-weight: 600;
+  font-size: 14px;
+}
+.download-section > a {
+  height: 30px;
+  width: 100px;
+  margin-inline: 10px;
+}
+.download-section > a > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.social-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-inline: 10px;
+}
+.row-3 {
+  text-align: justify;
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+  font-family: OKRA-REGULAR;
+  line-height: 18px;
+  margin: 12px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
