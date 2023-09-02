@@ -170,12 +170,21 @@ td
   line-height: 18px;
   margin: 12px;
 }
+nav{
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
 @media screen and (max-width:768px)
 {
   nav,.my-footer>.row-1,.my-footer>.row-2
   {
     flex-direction: column;
     align-items: center;
+  }
+  nav
+  {
+    position: static;
   }
   .image-1>img
   {
