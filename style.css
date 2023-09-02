@@ -106,7 +106,6 @@
   font-size: 15px;
   color: rgb(102, 102, 102);
   font-family: OKRA-REGULAR;
-  padding-right: 70px;
 }
 .row-2-col1 {
   text-align: justify;
@@ -141,6 +140,28 @@
   font-size: 20px;
   margin-inline: 10px;
 }
+.row-1{
+   display: flex;
+   justify-content: space-between;
+}
+.useful-links
+{
+  flex: 2;
+}
+.categories
+{
+  flex: 3;
+}
+table
+{
+  width: 100%;
+}
+td
+{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-inline: 5px;
+}
 .row-3 {
   text-align: justify;
   font-size: 14px;
@@ -149,7 +170,18 @@
   line-height: 18px;
   margin: 12px;
 }
-
+@media screen and (max-width:768px)
+{
+  nav,.my-footer>.row-1,.my-footer>.row-2
+  {
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-1>img
+  {
+    display: none;
+  }
+}
 ::-webkit-scrollbar {
   display: none;
 }
