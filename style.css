@@ -40,9 +40,6 @@
   overflow-x: scroll;
   margin: auto;
 }
-.categories-1-list {
-  white-space: nowrap;
-}
 .categories-1-list > img {
   padding-inline: 10px;
 }
@@ -58,9 +55,6 @@
 }
 .detailed-categories-section > h3 {
   margin-top: 20px;
-}
-.dt-cat-1-list {
-  white-space: nowrap;
 }
 .my-card {
   width: 179px;
@@ -141,17 +135,18 @@
   margin-inline: 10px;
 }
 .row-1{
-   display: flex;
-   justify-content: space-between;
+   display: grid;
+  grid-template-columns: 2fr 3fr;
 }
-.useful-links
+/* .useful-links
 {
+  grid: 2;
   flex: 2;
 }
 .categories
 {
   flex: 3;
-}
+} */
 table
 {
   width: 100%;
@@ -177,10 +172,19 @@ nav{
 }
 @media screen and (max-width:768px)
 {
-  nav,.my-footer>.row-1,.my-footer>.row-2
+  nav,.row-2
   {
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+  }
+  .row-1
+  {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .row-2-col1
+  {
+    width: 100%;
   }
   nav
   {
